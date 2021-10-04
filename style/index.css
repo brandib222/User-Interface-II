@@ -172,6 +172,50 @@ footer button{
     align-items:center;
     font-style: italic;
 }
+@media(max-width:800px){
+
+    header h1{
+        font-size:30px;
+        width:30%;
+    }
+    .top h2{
+        font-size:55px;
+    }
+    .Box1{
+        width:27%;
+        height:40vh;
+        margin:3%;
+    }
+    .Box2{
+        width:27%;
+        height:40vh;
+        margin:3%;
+    }
+    .Box3{
+        width:27%;
+        height:40vh;
+        margin:3%;
+    }
+    .Box4{
+        width:27%;
+        height:40vh;
+        margin:3%;
+    }
+    .Box5{
+        width:27%;
+        height:40vh;
+        margin:3%;
+    }
+    .Box6{
+        width:27%;
+        height:40vh;
+        margin:3%;
+    }
+    footer button{
+        margin:5%;
+    }
+    
+    }/*<-------close of the 800px media tag*/
 @media(max-width:500px){
     
 header h1{
@@ -231,47 +275,66 @@ h3{
 
 
 }/*<-------close of the 500px media tag*/
-@media(max-width:800px){
-
-header h1{
-    font-size:30px;
-    width:30%;
-}
-.top h2{
-    font-size:55px;
-}
-.Box1{
-    width:27%;
-    height:40vh;
-    margin:3%;
-}
-.Box2{
-    width:27%;
-    height:40vh;
-    margin:3%;
-}
-.Box3{
-    width:27%;
-    height:40vh;
-    margin:3%;
-}
-.Box4{
-    width:27%;
-    height:40vh;
-    margin:3%;
-}
-.Box5{
-    width:27%;
-    height:40vh;
-    margin:3%;
-}
-.Box6{
-    width:27%;
-    height:40vh;
-    margin:3%;
-}
-footer button{
-    margin:5%;
-}
-
-}/*<-------close of the 800px media tag*/
+@media(max-width:360px){
+    header h1{
+        font-size:12px;
+        width:20%;
+    
+    }
+    header nav a{
+        font-size:12px;
+        width:20%;
+    }
+    .top{
+        margin:2%;
+    }
+    .top h2{
+        font-size:36px;
+        margin:8%;
+    }
+    .top button{
+        width:50%;
+    }
+    .coolStuff{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:nowrap;
+        justify-content:center;
+    }
+    h3{
+        font-size:24px;
+    }
+    .Box1{
+        width:90%;
+        height:50vh;
+        margin:3%;
+    }
+    .Box2{
+        width:90%;
+        height:50vh;
+        margin:3%;
+    }
+    .Box3{
+        width:90%;
+        height:50vh;
+        margin:3%;
+    }
+    .Box4{
+        width:90%;
+        height:50vh;
+        margin:3%;
+    }
+    .Box5{
+        width:90%;
+        height:50vh;
+        margin:3%;
+    }
+    .Box6{
+        width:90%;
+        height:50vh;
+        margin:3%;
+    }
+    footer button{
+        margin:12%;
+    }
+}/*<======close of the 360px media tag*/
