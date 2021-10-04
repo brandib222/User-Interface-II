@@ -172,3 +172,62 @@ footer button{
     align-items:center;
     font-style: italic;
 }
+@media(max-width:500px){
+    
+header h1{
+    font-size:15px;
+    width:20%;
+
+}
+header nav a{
+    font-size:12px;
+    width:20%;
+}
+.top h2{
+    font-size:50px;
+}
+.top button{
+    width:30%;
+}
+.coolStuff{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:center;
+}
+h3{
+    font-size:15px;
+}
+.Box1{
+    width:70%;
+    height:50vh;
+    margin:3%;
+}
+.Box2{
+    width:70%;
+    height:50vh;
+    margin:3%;
+}
+.Box3{
+    width:70%;
+    height:50vh;
+    margin:3%;
+}
+.Box4{
+    width:70%;
+    height:50vh;
+    margin:3%;
+}
+.Box5{
+    width:70%;
+    height:50vh;
+    margin:3%;
+}
+.Box6{
+    width:70%;
+    height:50vh;
+    margin:3%;
+}
+
+
+}/*<-------close of the media tag*/
